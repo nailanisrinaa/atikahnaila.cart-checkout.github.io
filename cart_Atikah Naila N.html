@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <title>iNels</title>
+</head>
+<body>
+  <header>
+    <nav> 
+      <ul class="logo">
+        <li>
+          <a href="">iNels</a>
+        </li>
+      </ul>
+
+      <ul class="menu-ul"> 
+        <li> <!-- Home --> 
+          <a href="/">Halaman Utama</a> |
+        </li> 
+        <li> <!--- Current -->
+          <a href="/events">Promo 10.10</a> |
+        </li> 
+        <li> <!-- Contact -->
+          <a href="/contact">Informasi Kontak</a>
+        </li> 
+      </ul> 
+
+      <ul class="icon-ul">
+        <li>
+          <i class="bi bi-search"></i>
+        </li>
+        <li class="cart">
+          <i class="bi bi-cart"></i>
+          <p>Cart(1)</p>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <main>
+      <h1>iNels</h1>
+      <table>
+        <thead>
+          <tr>
+            <td class="col-head">Barang</td>
+            <td class="col-head">Harga</td>
+            <td class="col-head">Banyaknya</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="img-macbook">
+              <img width="200" src="./foto/macbook.jpg" alt="">
+              <p>MacBook <br> Pro 2021 </p>
+            </td>
+            <td>
+              <b>IDR 25.500.000 </b>
+            </td>
+            <td>
+              <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+              </select>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="col-head" colspan="3" align="right">Subtotal: <b>IDR 25.500.000</b></td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+
+    <aside>
+      <h2>Summary ( 1 item )</h2>
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td align="right">IDR 25.500.000</td>
+        </tr>
+        <tr>
+          <td>Pengiriman</td>
+          <td align="right">-</td>
+        </tr>
+        <tr>
+          <td>Biaya Admin</td>
+          <td align="right">-</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td align="right">IDR 25.500.000</td>
+        </tr>
+      </table>
+      <a class="btn-checkout" href="checkout.html">Bayar Sekarang</a>
+    </aside>
+  </div>
+
+  <footer>
+    <div class="baris">
+      <a href="">Electronic Store</a> |
+      <a href="">Handphone</a> |
+      <a href="">Earphone</a> |
+      <a href="">Laptop</a> 
+      <a href="">Tetap Terhubung</a>
+    </div>
+    <div class="baris">
+      <i class="bi bi-badge-ar-fill"></i>
+      <i class="bi bi-badge-ar-fill"></i>
+      <i class="bi bi-badge-ar-fill"></i>
+      <div class="input-subscribe" >
+        <input type="text" placeholder="Masukkan Email">
+        <p>Berlangganan</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
